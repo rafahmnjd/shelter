@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#ffffff"
 
     tools:context="com.example.toshiba.shelter.ABOUT">
 
@@ -20,7 +21,7 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:padding="16dp"
-            android:src="@drawable/DEVIMPACT" />
+            android:src="@drawable/devimpact" />
     </RelativeLayout>
 
     <ScrollView
@@ -34,12 +35,22 @@
             android:layout_margin="16dp"
             android:text="Hello World!" />
     </ScrollView>
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Share"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_margin="8dp">
-
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        >
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
